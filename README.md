@@ -35,7 +35,7 @@ A aplicação foi totalmente containerizada, permitindo que o ambiente de desenv
 
 ## 📸 Evidências
 
-![Demonstração do E-commerce](<img width="1543" height="660" alt="image" src="https://github.com/user-attachments/assets/97ea4b74-a93a-4427-9f01-42909d87b771" />)
+![Demonstração do E-commerce](<img width="1543" height="660" alt="image" src="https://github.com/user-attachments/assets/7d403b1b-f950-4ac9-9b79-75cf371eb4ca" />)
 
 
 ## 🔗 Repositório Oficial
