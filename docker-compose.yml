@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Serviço da API (Backend) - Usa o seu Dockerfile que está na pasta backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - ecommerce-network
+
+  # Serviço do Site (Frontend) - Porta 8081
+  frontend:
+    image: nginx:alpine       # Usa uma imagem pronta do Nginx (não precisa de Dockerfile)
+    volumes:
+      - ./frontend:/usr/share/nginx/html # Monta sua pasta frontend direto no servidor
+    ports:
+      - "8081:80"             # MANTIDO NA PORTA 8081
+    depends_on:
+      - backend
+    networks:
+      - ecommerce-network
+
+networks:
+  ecommerce-network:
+    driver: bridge
