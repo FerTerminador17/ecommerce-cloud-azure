@@ -1,43 +1,42 @@
-# 🛒 E-commerce Cloud - Azure
+# 🛒 E-commerce Cloud - Azure (Projeto DIO)
 
-Projeto desenvolvido como desafio da DIO para demonstrar conhecimentos em Cloud e DevOps.
+Projeto desenvolvido como desafio prático na plataforma **DIO** para demonstrar conhecimentos em **Cloud, Docker e DevOps**. A aplicação consiste em uma vitrine de "Drops" (tênis) com estética moderna e gerenciamento dinâmico.
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias Utilizadas
 
-- Docker
-- Azure Container Apps
-- Azure Container Registry (ACR)
-- HTML / JavaScript
-- Azure CLI
+- **Docker & Docker Compose**: Orquestração de containers para Backend e Frontend.
+- **Node.js**: API REST para gerenciamento dos produtos.
+- **Nginx**: Servidor web de alta performance para o Frontend.
+- **HTML5 / CSS3 / JavaScript**: Interface responsiva com temática Cyberpunk/Neon.
+- **Azure Ready**: Estrutura preparada para Azure Container Apps e Registry (ACR).
 
 ## 📦 Funcionalidades
 
-- Cadastro de produtos
-- Listagem de produtos
-- Visualização de detalhes
-- Deploy em ambiente cloud
+- **Cadastro de Produtos**: Adição de novos itens com nome, marca, preço e link de imagem.
+- **Listagem em Tempo Real**: Vitrine dinâmica que consome a API local.
+- **Persistência de Mídia**: Suporte a imagens via URL externa.
+- **Ambiente Isolado**: Execução completa via containers Docker.
 
 ## ☁️ Deploy
 
-Aplicação publicada na Azure utilizando Container Apps:
-
-👉 Projeto pronto para deploy em ambiente Azure. Execução atual via Docker Localhost.
+A arquitetura do projeto foi desenhada para nuvem. Atualmente, a execução de demonstração é realizada via:
+👉 **Ambiente:** Docker Localhost (Porta 8081).
+👉 **Status:** Pronto para deploy em Azure Container Apps.
 
 ## 🐳 Containerização
 
-A aplicação foi containerizada com Docker e publicada no Azure Container Registry.
+A aplicação foi totalmente containerizada, permitindo que o ambiente de desenvolvimento seja idêntico ao de produção, facilitando a publicação no **Azure Container Registry (ACR)**.
 
-## 🧠 Aprendizados
+## 🧠 Aprendizados e Insights
 
-- Criação e gerenciamento de containers
-- Deploy em cloud (Azure)
-- Configuração de permissões (IAM)
-- Integração com Azure Container Registry
+- **Orquestração de Containers**: Uso do Docker Compose para gerenciar múltiplos serviços (API e Web).
+- **Comunicação entre Containers**: Configuração de redes internas no Docker para integração Backend/Frontend.
+- **Cloud Design**: Preparação de uma aplicação local para uma arquitetura escalável em nuvem.
 
 ## 📸 Evidências
 
-(adicione prints aqui)
+![Demonstração do E-commerce](https://github.com/user-attachments/assets/fef046d5-8647-4947-91b5-8a40182c86f6)
 
-## 🔗 Repositório
+## 🔗 Repositório Oficial
 
-https://github.com/FerTerminador17/ecommerce-cloud-azure
+[https://github.com/FerTerminador17/ecommerce-cloud-azure](https://github.com/FerTerminador17/ecommerce-cloud-azure)
