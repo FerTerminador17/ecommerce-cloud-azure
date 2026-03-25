@@ -21,7 +21,7 @@ Projeto desenvolvido como desafio da DIO para demonstrar conhecimentos em Cloud 
 
 Aplicação publicada na Azure utilizando Container Apps:
 
-👉 https://SEU-LINK-AQUI
+👉 Projeto rodando localmente via Docker (Localhost:8081).
 
 ## 🐳 Containerização
 
@@ -40,4 +40,4 @@ A aplicação foi containerizada com Docker e publicada no Azure Container Regis
 
 ## 🔗 Repositório
 
-https://github.com/seu-usuario/seu-repo
+[https://github.com/seu-usuario/seu-repo](https://github.com/FerTerminador17/ecommerce-cloud-azure)
